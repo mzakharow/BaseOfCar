@@ -1,6 +1,7 @@
 package ru.mishost.baseofcar.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.mishost.baseofcar.model.Car;
@@ -9,8 +10,10 @@ import ru.mishost.baseofcar.repository.CarRepository;
 /**
  * Created by zakharow on 13.03.17.
  */
-@Service("studentService")
+@Service("carService")
 public class CarServiceImpl implements CarService {
+
+    //@Qualifier("carRepository")
 
     @Autowired
     private CarRepository carRepository;
@@ -21,9 +24,9 @@ public class CarServiceImpl implements CarService {
     }
 
     public boolean findByLogin(String userName, String password) {
-        Car stud = carRepository.findByUserName(userName);
+        Car car = carRepository.findByUserName(userName);
 
-        if(stud != null && stud.getPassword().equals(password)) {
+        if(car != null && car.getPassword().equals(password)) {
             return true;
         }
 
@@ -31,9 +34,9 @@ public class CarServiceImpl implements CarService {
     }
 
     public boolean findByUserName(String userName) {
-        Car stud = carRepository.findByUserName(userName);
+        Car car = carRepository.findByUserName(userName);
 
-        if(stud != null) {
+        if(car != null) {
             return true;
         }
 
