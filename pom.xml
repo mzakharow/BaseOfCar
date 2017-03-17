@@ -91,7 +91,7 @@
     </dependencies>
 
     <build>
-        <finalName>SpringFirstApplication</finalName>
+        <finalName>BaseOfCar</finalName>
         <defaultGoal>install</defaultGoal>
     </build>
 
