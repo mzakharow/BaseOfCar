@@ -11,6 +11,7 @@
 
     <context:annotation-config />
 
+    <jpa:repositories base-package="ru.mishost.baseofcar.repository" />
 
     <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
 
