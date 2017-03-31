@@ -23,10 +23,11 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="BaseOfCar" />
+        <module name="BaseOfCars" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BaseOfCar" target="1.5" />
+      <module name="BaseOfCars" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

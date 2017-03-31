@@ -1,6 +1,6 @@
-package ru.mishost.baseofcar.service;
+package ru.mishost.baseofcars.service;
 
-import ru.mishost.baseofcar.model.Car;
+import ru.mishost.baseofcars.model.Car;
 
 /**
  * Created by zakharow on 13.03.17.

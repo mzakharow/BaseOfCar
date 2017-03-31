@@ -1,11 +1,10 @@
-package ru.mishost.baseofcar.service;
+package ru.mishost.baseofcars.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.mishost.baseofcar.model.Car;
-import ru.mishost.baseofcar.repository.CarRepository;
+import ru.mishost.baseofcars.model.Car;
+import ru.mishost.baseofcars.repository.CarRepository;
 
 /**
  * Created by zakharow on 13.03.17.

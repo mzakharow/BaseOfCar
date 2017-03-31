@@ -1,4 +1,4 @@
-package ru.mishost.baseofcar.model;
+package ru.mishost.baseofcars.model;
 
 /**
  * Created by zakharow on 13.03.17.

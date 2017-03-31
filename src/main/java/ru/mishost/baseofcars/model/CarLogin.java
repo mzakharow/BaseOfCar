@@ -1,4 +1,4 @@
-package ru.mishost.baseofcar.model;
+package ru.mishost.baseofcars.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

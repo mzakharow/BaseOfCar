@@ -1,3 +1,5 @@
+<%@page pageEncoding="UTF-8"%>
+<%request.setCharacterEncoding("UTF-8");%>
 <html>
 <head>
     <link href="assets/css/bootstrap-united.css" rel="stylesheet" />
@@ -7,8 +9,9 @@
             height: 100%;
             margin: 0;
             background: url(assets/img/books.jpg);
-            background-size: 1440px 800px;
+
             background-repeat: no-repeat;
+            background-size: 100%;
             display: compact;
         }
     </style>
@@ -29,15 +32,15 @@
             <input type="text" class="form-control" placeholder="Search">
         </form>
         <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="signup.html">Signup</a></li>
-            <li><a href="login.html">Login</a></li>
+            <li class="active"><a href="#">Главная</a></li>
+            <li><a href="signup.html">Регистрация</a></li>
+            <li><a href="login.html">Войти</a></li>
             <li class="dropdown"><a href="#" class="dropdown-toggle"
-                                    data-toggle="dropdown">Explore<b class="caret"></b></a>
+                                    data-toggle="dropdown">Дополнительно<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Контакты</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Further Actions</a></li>
+                    <li><a href="#">О проекте</a></li>
                 </ul></li>
         </ul>
     </div>
@@ -46,13 +49,13 @@
 <div class="container">
     <div class="jumbotron">
         <div>
-            <h1>База данных автомобилей!</h1>
-            <p>Для доступа к базе необходимо зарегистрироваться.
-                Или войдите используя свою учетную запись.</p>
+            <h1>Добро пожаловать в базу данных автомобилей!</h1>
+            <p>Для начала зарегистрируйтесь.
+                Или войдите используя свои учетные данные.</p>
         </div>
 
-        <a class="btn btn-primary" href="signup.html">Signup � </a> <a
-            class="btn btn-primary" href="login.html">Login � </a>
+        <a class="btn btn-primary" href="signup.html">Регистрация </a> <a
+            class="btn btn-primary" href="login.html">Вход </a>
     </div>
 
     <div></div>

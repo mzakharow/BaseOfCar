@@ -9,7 +9,7 @@
 
     <mvc:annotation-driven />
 
-    <context:component-scan base-package="ru.mishost.baseofcar" />
+    <context:component-scan base-package="ru.mishost.baseofcars" />
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/" />
@@ -17,7 +17,7 @@
     </bean>
 
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-        <property name="basename" value="messages" />
+        <property name="basename" value="messages"/>
     </bean>
 
 </beans>
